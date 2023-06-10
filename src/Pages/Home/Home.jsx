@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
-import Number from "../../Components/Number/Number";
+import Extra from "../../Components/Extra/Extra";
+// import CounterPage from "../../Components/Extra/Extra";
 
 const Home = () => {
   return (
     <div>
       <div>
         <Header />
-        <Number />
+        <Extra />
       </div>
     </div>
   );
